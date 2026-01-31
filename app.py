@@ -48,7 +48,7 @@ if menu == "Researcher Profile":
     st.write(f"**Institution:** {institution}")
     
     st.image(
-    "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+    "https://cdn.https://pixabay.com/photos/sunset-tree-water-silhouette-1373171/.png",
     caption="Nature (Pixabay)"
 )
 
@@ -136,6 +136,7 @@ elif menu == "Contact":
 
     st.write(f"You can reach me at {email}.")
     st.write (f"find me here {website}.")
+
 
 
 
