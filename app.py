@@ -135,6 +135,7 @@ elif menu == "Contact":
     website = "www.mafifibusinesssolutions.co.za"
 
     st.write(f"You can reach me at {email}.")
+    st.write (f"find me here {website}.")
 
 
 
