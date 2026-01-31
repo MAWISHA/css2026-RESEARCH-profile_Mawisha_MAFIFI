@@ -16,7 +16,7 @@ menu = st.sidebar.radio(
 physics_data = pd.DataFrame({
     "Computational results": ["Thermodynamical properties", "Structural stability", "Mechanical properties"],
     "Energy (MeV)": [4.2, 1.5, 2.9],
-    "Date": pd.date_range(start="2024-01-01", periods=5),
+    "Date": pd.date_range(start="2024-01-01", periods=3),
 })
 
 astronomy_data = pd.DataFrame({
@@ -136,6 +136,7 @@ elif menu == "Contact":
 
     st.write(f"You can reach me at {email}.")
     st.write (f"find me here {website}.")
+
 
 
 
