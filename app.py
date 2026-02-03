@@ -15,7 +15,7 @@ menu = st.sidebar.radio(
 # Dummy STEM data
 physics_data = pd.DataFrame({
     "Computational results": ["Thermodynamical properties", "Structural stability", "Mechanical properties"],
-    "Energy (MeV)": [4.2, 1.5, 2.9],
+    "Energy (MeV)": [stable=all concentration, stability=true, most stable=20% Alloy concentration],
     "Date": pd.date_range(start="2024-01-01", periods=3),
 })
 
@@ -136,6 +136,7 @@ elif menu == "Contact":
 
     st.write(f"You can reach me at {email}.")
     st.write (f"find me here {website}.")
+
 
 
 
