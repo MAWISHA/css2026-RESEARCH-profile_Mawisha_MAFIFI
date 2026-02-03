@@ -9,7 +9,7 @@ st.set_page_config(page_title="Researcher Profile and STEM Data Explorer", layou
 st.sidebar.title("Navigation")
 menu = st.sidebar.radio(
     "Go to:",
-    ["Researcher Profile", "Publications", "STEM Data Explorer", "Contact", "Address"],
+    ["Researcher Profile", "Publications", "Contact"],
 )
 # Sections based on menu selection
 if menu == "Researcher Profile":
@@ -115,6 +115,7 @@ elif menu == "Contact":
 
     st.write(f"You can reach me at {email}.")
     st.write (f"find me here {website}.")
+
 
 
 
