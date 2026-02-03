@@ -20,9 +20,9 @@ physics_data = pd.DataFrame({
 })
 
 astronomy_data = pd.DataFrame({
-    "Celestial Object": ["Mars", "Venus", "Jupiter", "Saturn", "Moon"],
-    "Brightness (Magnitude)": [-2.0, -4.6, -1.8, 0.2, -12.7],
-    "Observation Date": pd.date_range(start="2024-01-01", periods=5),
+    "nechanical property": ["elasticity constants", "Ductility", "Hardness"],
+    "Thermodynamical(stability)": [structural, enthalpy, cohesive energy],
+    "Observation Date": pd.date_range(start="2025-01-01", periods=3),
 })
 
 weather_data = pd.DataFrame({
@@ -136,6 +136,7 @@ elif menu == "Contact":
 
     st.write(f"You can reach me at {email}.")
     st.write (f"find me here {website}.")
+
 
 
 
