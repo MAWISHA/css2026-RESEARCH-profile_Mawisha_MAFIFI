@@ -11,27 +11,6 @@ menu = st.sidebar.radio(
     "Go to:",
     ["Researcher Profile", "Publications", "STEM Data Explorer", "Contact", "Address"],
 )
-
-# Dummy STEM data
-physics_data = pd.DataFrame({
-    "Computational results": ["Thermodynamical properties", "Structural stability", "Mechanical properties"],
-    "Energy (MeV)": [4.3, 6.8, 7.0],
-    "Date": pd.date_range(start="2025-01-01", periods=3),
-})
-
-astronomy_data = pd.DataFrame({
-    "nechanical property": ["elasticity constants", "Ductility", "Hardness"],
-    "Thermodynamical(stability)": [structural, enthalpy, cohesive energy],
-    "Observation Date": pd.date_range(start="2025-01-01", periods=3),
-})
-
-weather_data = pd.DataFrame({
-    "City": ["Cape Town", "London", "New York", "Tokyo", "Sydney"],
-    "Temperature (°C)": [25, 10, -3, 15, 30],
-    "Humidity (%)": [65, 70, 55, 80, 50],
-    "Recorded Date": pd.date_range(start="2024-01-01", periods=5),
-})
-
 # Sections based on menu selection
 if menu == "Researcher Profile":
     st.title("Researcher Profile")
@@ -136,6 +115,7 @@ elif menu == "Contact":
 
     st.write(f"You can reach me at {email}.")
     st.write (f"find me here {website}.")
+
 
 
 
